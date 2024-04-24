@@ -1,0 +1,19 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 16,
+        "width": 16
+    },
+    "display": "Maestro",
+    "events": {
+        "AAI": {
+            "caption": "Musicians finished",
+            "name": "musicians_finished"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "resizable": true
+    }
+}

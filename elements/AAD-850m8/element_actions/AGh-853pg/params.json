@@ -1,0 +1,13 @@
+{
+    "caption": "Initialize musicians",
+    "fields": {
+        "AGk": {
+            "caption": "Musicians class",
+            "doc": "Cannot contain spaces or weird characters, stick to a simple word or use _ and you'll be safe. Different elements, like Musicians A, B, C needs different classes here. Unique name per class.",
+            "editor": "DynamicValue",
+            "name": "musicians_class",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

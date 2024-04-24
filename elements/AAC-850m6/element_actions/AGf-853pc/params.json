@@ -1,0 +1,76 @@
+{
+    "caption": "Trigger musicians under",
+    "fields": {
+        "AAJ": {
+            "caption": "Single cell",
+            "editor": "Label",
+            "name": "singlecell",
+            "rank": 2
+        },
+        "AAK": {
+            "caption": "Use one option of the below. Single cell, multiple cells or all cells. It only runs in one method, but if you need you can use dynamic expressions to use one option or the other based on whatever logic you want.",
+            "editor": "Label",
+            "name": "use_one_option_of_the_below._single_cell,_multiple_cells_or_all_cells._it_only_runs_in_one_method,_but_you_can_use_dynamic_expressions_to_use_one_or_the_other.",
+            "rank": 1
+        },
+        "AAL": {
+            "caption": "Multiple cells",
+            "editor": "Label",
+            "name": "multiple_cells",
+            "rank": 4
+        },
+        "AAM": {
+            "caption": "All cells",
+            "editor": "Label",
+            "name": "all_cells",
+            "rank": 7
+        },
+        "AGl": {
+            "caption": "Cell position to trigger",
+            "doc": "The index number of the specific individual cell to trigger the event. For example 1 is first cell.",
+            "editor": "DynamicValue",
+            "name": "cell_index_to_trigger",
+            "optional": true,
+            "rank": 3,
+            "value": "number"
+        },
+        "AGm": {
+            "caption": "Trigger multiple cells",
+            "default_val": false,
+            "doc": "If yes, will ignore the individual cell specified above and use the list below.",
+            "editor": "DynamicValue",
+            "name": "trigger_multiple_cells",
+            "optional": true,
+            "rank": 5,
+            "value": "boolean"
+        },
+        "AGn": {
+            "caption": "Cell positions list",
+            "doc": "A list containing the positions of the cells you want to trigger, for example 1,3,5.",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "cell_positions_list",
+            "optional": true,
+            "rank": 6,
+            "value": "number"
+        },
+        "AGo": {
+            "caption": "Trigger every cell",
+            "default_val": false,
+            "doc": "If you set this to yes, will ignore everything above and trigger the workflow for every filled cell.",
+            "editor": "DynamicValue",
+            "name": "trigger_every_cell",
+            "optional": true,
+            "rank": 8,
+            "value": "boolean"
+        },
+        "AGp": {
+            "caption": "Class to trigger",
+            "doc": "The unique name of the class of musicians element you want to trigger. Cannot contain spaces or weird characters, stick to a simple word or use _ and you'll be safe. For example, if you gave the class name \"Slime\" to the element \"Musicians A\" , here you write \"Slime\" to target them. Keep in mind the cell must be visible and filled. If there are 5 things in the repeating group, but the repeating group is fixed to 4 cells, then the fifth cell won't trigger a workflow because the cell doesn't exist in the page. You can refer to the data of the repeating group via normal Bubble functions.",
+            "editor": "DynamicValue",
+            "name": "class_to_trigger",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

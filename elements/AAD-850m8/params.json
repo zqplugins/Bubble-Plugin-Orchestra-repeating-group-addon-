@@ -1,0 +1,23 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 16,
+        "width": 16
+    },
+    "display": "Musicians",
+    "events": {
+        "AGg": {
+            "caption": "Will run this workflow inside each cell",
+            "name": "workflow_inside_each_cell"
+        },
+        "AGi": {
+            "caption": "Revealed",
+            "name": "revealed"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "resizable": true
+    }
+}

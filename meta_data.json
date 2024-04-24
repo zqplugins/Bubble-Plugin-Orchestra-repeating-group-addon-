@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "containers",
+        "1": "technical",
+        "2": "productivity"
+    },
+    "description": "This plugin has been recently acquired by Zeroqode - please bear with us while we review the code and make improvements/fixes where necessary.\n\nMelt down the isolation barrier that surrounds repeating groups. \nAllows you to use an external element to trigger a workflow that runs inside the repeating group cell.\nYou can specify one cell, a specific group of cells or all of them. \nLiterally this eliminates the weird limitation of not being able to refer to things inside a repeating group.\n\nTo receive special offers and important updates please visit: https://zeroqo.de/updates\n\n🔔 Get our 15 Top Plugins Bundle with 15 most popular plugins for only 20$/month.\nPlugins included in the Bundle:\n\n- Bubble Page to PDF converter\n- Stripe Marketplace Express\n- Air Calendar (Full Calendar 5.9.0)\n- AWS File uploader - Any size\n- Advanced Rich Text Editor\n- Mapbox Map\n- Phone Input Number with Formatting\n- Advanced Multi Uploader\n- Video Player\n- Dynamic Height & Width of Elements\n- Audio Recorder\n- Repeating Group to CSV\n- Print Pro\n- Advanced Audio Player\n- Easy File Downloader\n\nGet it here: https://zeroqode.com/bundle\n\nDEMO & DOCUMENTATION\nhttps://zeroqode.com/plugin/orchestra-repeating-group-addon-plugin-for-bubble-1712925116704x197016976625028030\n\nNEED HELP BUILDING A CUSTOM APPLICATION?\nhttps://zeroqode.com\n\nSUPERCHARGE YOUR APP WITH ZEROQODE PLUGINS\nhttps://zeroqode.com/plugins\n\nQUESTIONS OR NEED HELP?\nhttps://forum.zeroqode.com ",
+    "image": "//s3.amazonaws.com/appforest_uf/f1582305502790x661237624910303000/music-spell.png",
+    "license": "open_source",
+    "link": "https://zeroqode.com/plugins",
+    "name": "Orchestra (repeating group addon)",
+    "plugin_instructions": "Place the Maestro element outside, Musicians elements inside the repeating group, initialize musicians like in the example and whenever you want to trigger a workflow you just specify the target cell(s) and it’ll run the workflow inside the custom event provided by the plugin “when the musicians are triggered this workflow will run inside each cell”."
+}
